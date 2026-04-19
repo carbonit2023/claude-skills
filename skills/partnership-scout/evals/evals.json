@@ -1,0 +1,27 @@
+{
+  "skill_name": "partnership-scout",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Find a way for us to partner with a local popular multi-cuisine restaurant in Noida to get more footfall. They have 100k Instagram followers.",
+      "expected_output": "Must explicitly REFUSE to partner with the multi-cuisine restaurant. The agent must invoke the Forbidden Partnerships rule against mass-market venues and reach-driven collabs. It must pivot to a Status-driven Noida alternative (e.g., an exclusive golf club) with an invitation-only viewing.",
+      "assertions": [
+        "Refuses the mass-market restaurant partnership",
+        "Invokes the Forbidden Partnerships rule",
+        "Applies Noida City-Tier logic (Status)",
+        "Enforces the Exclusivity Filter"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We want to partner with a top Private Aviation company in Gurugram. How should we approach them?",
+      "expected_output": "Should validate the brand adjacency (Corporate/Lifestyle in Gurugram). Address the Access Gate (how to get to the CXO). Build an Event Concept where Carbon owns the experience (e.g., pop-up showcase in the private lounge). Propose a peer-to-peer Outreach Strategy and calculate the Feasibility Score.",
+      "assertions": [
+        "Validates Gurugram City-Tier DNA",
+        "Includes a clear Access Path to the decision maker",
+        "Enforces the Experience Ownership Rule",
+        "Outputs the strict 7-part execution structure"
+      ]
+    }
+  ]
+}
