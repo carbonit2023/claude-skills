@@ -1,0 +1,10 @@
+# Hides files from Claude AI Context / Zip Upload (keeps them under 200 file limit)
+
+# Hide non-essential folders
+.git/
+.github/
+tools/
+.claude-plugin/
+
+# Hide legacy skills archived in the temp folder
+skills/temp/

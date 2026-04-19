@@ -1,101 +1,93 @@
-# Marketing Skills for AI Agents
+# Carbon AI Marketing Orchestrator
 
-A collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, analytics, and growth engineering. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
+A collection of elite AI agent skills focused on luxury marketing orchestration. Built for the Carbon ecosystem to help with market reconnaissance, conversion optimization, geo-intent discovery, and high-end BTL partnerships. Works with Claude Code, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
 
-Built by [Corey Haines](https://corey.co?ref=marketingskills). Need hands-on help? Check out [Conversion Factory](https://conversionfactory.co?ref=marketingskills) — Corey's agency for conversion optimization, landing pages, and growth strategy. Want to learn more about marketing? Subscribe to [Swipe Files](https://swipefiles.com?ref=marketingskills). Want an autonomous AI agent that uses these skills to be your CMO? Try [Magister](https://magistermarketing.com?ref=marketingskills).
-
-New to the terminal and coding agents? Check out the companion guide [Coding for Marketers](https://codingformarketers.com?ref=marketingskills).
+Built for [Carbon](https://github.com/carbonit2023). This repository is a specialized fork of the original Marketing Skills by Corey Haines, transformed into a 9-core luxury orchestration system.
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 
-Run into a problem or have a question? [Open an issue](https://github.com/coreyhaines31/marketingskills/issues) — we're happy to help.
+Run into a problem or have a question? [Open an issue](https://github.com/carbonit2023/claude-skills/issues) — we're happy to help.
 
 ## What are Skills?
 
-Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a marketing task and apply the right frameworks and best practices.
+Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on a luxury marketing task and apply the right frameworks and brand DNA.
 
-## How Skills Work Together
+## How Carbon AI Skills Work Together
 
-Skills reference each other and build on shared context. The `product-marketing-context` skill is the foundation — every other skill checks it first to understand your product, audience, and positioning before doing anything.
+The Carbon AI Marketing Orchestrator uses a 9-core architecture of elite, luxury-aligned skills that cross-reference each other to maintain brand integrity and execute geo-fenced growth.
 
 ```
-                            ┌──────────────────────────────────────┐
-                            │      product-marketing-context       │
-                            │    (read by all other skills first)  │
-                            └──────────────────┬───────────────────┘
-                                               │
-    ┌──────────────┬─────────────┬─────────────┼─────────────┬──────────────┬──────────────┐
-    ▼              ▼             ▼             ▼             ▼              ▼              ▼
-┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────────┐ ┌──────────┐ ┌─────────────┐ ┌───────────┐
-│  SEO &   │ │   CRO    │ │Content & │ │  Paid &    │ │ Growth & │ │  Sales &    │ │ Strategy  │
-│ Content  │ │          │ │   Copy   │ │Measurement │ │Retention │ │    GTM      │ │           │
-├──────────┤ ├──────────┤ ├──────────┤ ├────────────┤ ├──────────┤ ├─────────────┤ ├───────────┤
-│seo-audit │ │page-cro  │ │copywritng│ │paid-ads    │ │referral  │ │revops       │ │mktg-ideas │
-│ai-seo    │ │signup-cro│ │copy-edit │ │ad-creative │ │free-tool │ │sales-enable │ │mktg-psych │
-│site-arch │ │onboard   │ │cold-email│ │ab-test     │ │churn-    │ │launch       │ │customer-  │
-│programm  │ │form-cro  │ │email-seq │ │analytics   │ │ prevent  │ │pricing      │ │research   │
-│schema    │ │popup-cro │ │social    │ │            │ │          │ │competitor   │ │           │
-│content   │ │paywall   │ │          │ │            │ │          │ │             │ │           │
-└────┬─────┘ └────┬─────┘ └────┬─────┘ └─────┬──────┘ └────┬─────┘ └──────┬──────┘ └─────┬─────┘
-     │            │            │              │             │              │              │
-     └────────────┴─────┬──────┴──────────────┴─────────────┴──────────────┴──────────────┘
-                        │
-         Skills cross-reference each other:
-           copywriting ↔ page-cro ↔ ab-test-setup
-           revops ↔ sales-enablement ↔ cold-email
-           seo-audit ↔ schema-markup ↔ ai-seo
-           customer-research → copywriting, page-cro, competitor-alternatives
+                           ┌──────────────────────────────────────────┐
+                           │       product-marketing-context          │
+                           │    (Read by all elite Carbon skills)     │
+                           └──────────────┬───────────┬───────────────┘
+                                          │           │
+                   ┌──────────────────────┴───────────┴─────────────────────┐
+                   │                                                        │
+         ┌─────────▼──────────┐                                   ┌─────────▼──────────┐
+         │ marketing-manager  │◄──────────────────────────────────┤ market-event-cal   │
+         │ (Master Orchestrator)                                  │ (Timing & Intent)  │
+         └─────────┬──────────┘                                   └─────────┬──────────┘
+                   │                                                        │
+    ┌──────────────┼──────────────┬──────────────┬──────────────┬───────────┼──────────────┐
+    ▼              ▼              ▼              ▼              ▼           ▼              ▼
+┌────────────┐ ┌────────────┐ ┌────────────┐ ┌────────────┐ ┌─────────┐ ┌──────────┐ ┌────────────┐
+│ Intelligence│ │ Discovery  │ │ Conversion │ │ Communication││ Planning│ │ Analysis │ │ Partnership│
+├────────────┤ ├────────────┤ ├────────────┤ ├────────────┤ ├─────────┤ ├──────────┤ ├────────────┤
+│competitor- │ │ ai-seo     │ │ ad-creative│ │ social-    │ │ activity│ │ campaign-│ │ partnership│
+│ analysis   │ │            │ │            │ │ content    │ │ planner │ │ optimizer│ │ scout      │
+└────────────┘ └────────────┘ └────────────┘ └────────────┘ └─────────┘ └──────────┘ └────────────┘
 ```
 
-See each skill's **Related Skills** section for the full dependency map.
+See each luxury skill's **Orchestration Guide** for the full 9-core dependency map.
 
 ## Available Skills
 
 <!-- SKILLS:START -->
 | Skill | Description |
 |-------|-------------|
-| [ab-test-setup](skills/ab-test-setup/) | When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program.... |
-| [ad-creative](skills/ad-creative/) | Used by the Carbon AI Orchestrator as the Performance Marketing Architect to design luxury conversion funnels,... |
-| [ai-seo](skills/ai-seo/) | Used by the Carbon AI Orchestrator as the Geo-Intent Discovery Engine. Weaponizes intelligence from Phase 3 to capture... |
-| [analytics-tracking](skills/analytics-tracking/) | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions... |
-| [aso-audit](skills/aso-audit/) | When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO... |
-| [campaign-optimizer](skills/campaign-optimizer/) | Used by the Carbon AI Orchestrator as the Performance Intelligence Engine. Audits measurement data from... |
-| [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
-| [cold-email](skills/cold-email/) | Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails,... |
-| [community-marketing](skills/community-marketing/) | Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a... |
-| [competitor-analysis](skills/competitor-analysis/) | Used by the Carbon AI Orchestrator as the Live Intelligence Engine. Analyzes competitor behavior not to copy them, but... |
-| [content-strategy](skills/content-strategy/) | When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also... |
-| [copy-editing](skills/copy-editing/) | When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the... |
-| [copywriting](skills/copywriting/) | When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages,... |
-| [customer-research](skills/customer-research/) | When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer... |
-| [email-sequence](skills/email-sequence/) | When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email... |
-| [form-cro](skills/form-cro/) | When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms,... |
-| [free-tool-strategy](skills/free-tool-strategy/) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or... |
-| [launch-strategy](skills/launch-strategy/) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user... |
-| [lead-magnets](skills/lead-magnets/) | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the... |
-| [market-event-calendar](skills/market-event-calendar/) | The timing and intent engine for Carbon. Maps every Indian cultural moment to its correct Layer... |
-| [marketing-ideas](skills/marketing-ideas/) | When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the... |
-| [marketing-manager](skills/marketing-manager/) | The Carbon CMO & Orchestrator. Acts as the final decision-maker and quality controller. Uses a research-first,... |
-| [marketing-psychology](skills/marketing-psychology/) | When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when... |
-| [monthly-activity-planner](skills/monthly-activity-planner/) | Generates practical, budget-conscious, location-specific, and evidence-backed marketing activity ideas (BTL/ATL/TTL)... |
-| [onboarding-cro](skills/onboarding-cro/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
-| [page-cro](skills/page-cro/) | When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing... |
-| [paid-ads](skills/paid-ads/) | When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X,... |
-| [partnership-scout](skills/partnership-scout/) | Used by the Carbon AI Orchestrator to expand Offline Dominance. Identifies elite BTL brand collaborations and... |
-| [paywall-upgrade-cro](skills/paywall-upgrade-cro/) | When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use... |
-| [popup-cro](skills/popup-cro/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also... |
-| [pricing-strategy](skills/pricing-strategy/) | When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions... |
-| [product-marketing-context](skills/product-marketing-context/) | When the user wants to create or update their product marketing context document. Also use when the user mentions... |
-| [programmatic-seo](skills/programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions... |
-| [referral-program](skills/referral-program/) | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.... |
-| [revops](skills/revops/) | When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes.... |
-| [sales-enablement](skills/sales-enablement/) | When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also... |
-| [schema-markup](skills/schema-markup/) | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user... |
-| [seo-audit](skills/seo-audit/) | When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO... |
-| [signup-flow-cro](skills/signup-flow-cro/) | When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the... |
-| [site-architecture](skills/site-architecture/) | When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal... |
-| [social-content](skills/social-content/) | Used by the Carbon AI Orchestrator to generate luxury social content (Reels, Captions, WhatsApp follow-ups) strictly... |
-<!-- SKILLS:END -->
+| [ab-test-setup](skills/ab-test-setup/) | Plan, design, or implement an A/B test or experiment. |
+| [ad-creative](skills/ad-creative/) | **(Elite Core)** Performance Marketing Architect. Designs luxury conversion funnels and retargeting logic. |
+| [ai-seo](skills/ai-seo/) | **(Elite Core)** Geo-Intent Discovery Engine. captures high-value local search intent (AEO, GEO, LLMO). |
+| [analytics-tracking](skills/analytics-tracking/) | Set up, improve, or audit analytics tracking and measurement. |
+| [aso-audit](skills/aso-audit/) | Audit or optimize an App Store or Google Play listing. |
+| [campaign-optimizer](skills/campaign-optimizer/) | **(Elite Core)** Performance Intelligence Engine. Audits data and diagnoses funnel breakages. |
+| [churn-prevention](skills/churn-prevention/) | Reduce churn, build cancellation flows, and recover failed payments. |
+| [cold-email](skills/cold-email/) | Write B2B cold emails and follow-up sequences that get replies. |
+| [community-marketing](skills/community-marketing/) | Build and leverage online communities to drive product growth. |
+| [competitor-analysis](skills/competitor-analysis/) | **(Elite Core)** Live Intelligence Engine. Identifies the Luxury Gap and executes SOV Fatigue Strikes. |
+| [content-strategy](skills/content-strategy/) | Plan a content strategy, editorial calendar, or content pillars. |
+| [copy-editing](skills/copy-editing/) | Edit, review, or improve existing marketing copy for tone and rhythm. |
+| [copywriting](skills/copywriting/) | Write, rewrite, or improve marketing copy for any page or long-form asset. |
+| [customer-research](skills/customer-research/) | Conduct, analyze, or synthesize customer research and personas. |
+| [email-sequence](skills/email-sequence/) | Create or optimize email sequences and lifecycle marketing flows. |
+| [form-cro](skills/form-cro/) | Optimize lead capture forms, contact forms, and surveys. |
+| [free-tool-strategy](skills/free-tool-strategy/) | Plan or build free tools (calculators, etc.) for marketing purposes. |
+| [launch-strategy](skills/launch-strategy/) | Plan a product launch, feature announcement, or GTM strategy. |
+| [lead-magnets](skills/lead-magnets/) | Create or optimize lead magnets for email capture. |
+| [market-event-calendar](skills/market-event-calendar/) | **(Elite Core)** Timing and Intent Engine. Maps Indian cultural moments to CM-level strategy. |
+| [marketing-ideas](skills/marketing-ideas/) | 140 SaaS marketing ideas and high-level growth triggers. |
+| [marketing-manager](skills/marketing-manager/) | **(Elite Core)** Master Orchestrator & CMO. Acts as the final decision-maker and quality controller (v4.0). |
+| [marketing-psychology](skills/marketing-psychology/) | Apply psychological principles and mental models to marketing. |
+| [monthly-activity-planner](skills/monthly-activity-planner/) | **(Elite Core)** Experience Architect. Generates practical BTL/ATL/TTL activity plans. |
+| [onboarding-cro](skills/onboarding-cro/) | Optimize post-signup onboarding and user activation. |
+| [page-cro](skills/page-cro/) | Optimize, improve, or increase conversions on any marketing page. |
+| [paid-ads](skills/paid-ads/) | Help with technical setup for Google, Meta, LinkedIn campaigns. |
+| [partnership-scout](skills/partnership-scout/) | **(Elite Core)** Offline Dominance Engine. Architects elite BTL brand collaborations. |
+| [paywall-upgrade-cro](skills/paywall-upgrade-cro/) | Create or optimize in-app paywalls and upgrade screens. |
+| [popup-cro](skills/popup-cro/) | Create or optimize popups, modals, and overlays. |
+| [pricing-strategy](skills/pricing-strategy/) | Help with pricing decisions, packaging, or monetization strategy. |
+| [product-marketing-context](skills/product-marketing-context/) | The foundation for all skills — contains ICP, positioning, and messaging. |
+| [programmatic-seo](skills/programmatic-seo/) | Create SEO-driven pages at scale using templates and data. |
+| [referral-program](skills/referral-program/) | Create, optimize, or analyze referral and affiliate programs. |
+| [revops](skills/revops/) | Help with revenue operations and lead lifecycle management. |
+| [sales-enablement](skills/sales-enablement/) | Create sales collateral, pitch decks, and objection docs. |
+| [schema-markup](skills/schema-markup/) | Add or optimize schema markup and structured data. |
+| [seo-audit](skills/seo-audit/) | Audit, review, or diagnose SEO issues on your site. |
+| [signup-flow-cro](skills/signup-flow-cro/) | Optimize signup, registration, and account creation flows. |
+| [site-architecture](skills/site-architecture/) | Plan or restructure website page hierarchy and navigation. |
+| [social-content](skills/social-content/) | **(Elite Core)** Luxury Content Engine. Generates Reels, Captions, and WhatsApp broadcasts. |
+<!-- SKILLS:START -->
 
 ## Installation
 
@@ -105,13 +97,10 @@ Use [npx skills](https://github.com/vercel-labs/skills) to install skills direct
 
 ```bash
 # Install all skills
-npx skills add coreyhaines31/marketingskills
+npx skills add carbonit2023/claude-skills
 
 # Install specific skills
-npx skills add coreyhaines31/marketingskills --skill page-cro copywriting
-
-# List available skills
-npx skills add coreyhaines31/marketingskills --list
+npx skills add carbonit2023/claude-skills --skill social-content ad-creative
 ```
 
 This automatically installs to your `.agents/skills/` directory (and symlinks into `.claude/skills/` for Claude Code compatibility).
@@ -122,10 +111,10 @@ Install via Claude Code's built-in plugin system:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add coreyhaines31/marketingskills
+/plugin marketplace add carbonit2023/claude-skills
 
-# Install all marketing skills
-/plugin install marketing-skills
+# Install all Carbon marketing skills
+/plugin install carbon-skills
 ```
 
 ### Option 3: Clone and Copy
@@ -133,8 +122,8 @@ Install via Claude Code's built-in plugin system:
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/coreyhaines31/marketingskills.git
-cp -r marketingskills/skills/* .agents/skills/
+git clone https://github.com/carbonit2023/claude-skills.git
+cp -r claude-skills/skills/* .agents/skills/
 ```
 
 ### Option 4: Git Submodule
@@ -142,10 +131,10 @@ cp -r marketingskills/skills/* .agents/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/coreyhaines31/marketingskills.git .agents/marketingskills
+git submodule add https://github.com/carbonit2023/claude-skills.git .agents/carbon-skills
 ```
 
-Then reference skills from `.agents/marketingskills/skills/`.
+Then reference skills from `.agents/carbon-skills/skills/`.
 
 ### Option 5: Fork and Customize
 
@@ -159,13 +148,10 @@ Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across mu
 
 ```bash
 # Install all skills
-npx skillkit install coreyhaines31/marketingskills
+npx skillkit install carbonit2023/claude-skills
 
 # Install specific skills
-npx skillkit install coreyhaines31/marketingskills --skill page-cro copywriting
-
-# List available skills
-npx skillkit install coreyhaines31/marketingskills --list
+npx skillkit install carbonit2023/claude-skills --skill social-content ad-creative
 ```
 
 ## Upgrading from v1.0
@@ -177,84 +163,20 @@ mkdir -p .agents
 mv .claude/product-marketing-context.md .agents/product-marketing-context.md
 ```
 
-Skills will still check `.claude/` as a fallback, so nothing breaks if you don't.
-
 ## Usage
 
-Once installed, just ask your agent to help with marketing tasks:
+Once installed, just ask your agent to help with luxury marketing tasks:
 
 ```
-"Help me optimize this landing page for conversions"
-→ Uses page-cro skill
+"Launch a counter-strategy for the upcoming festive season in Ahmedabad"
+→ Uses marketing-manager orchestrator
 
-"Write homepage copy for my SaaS"
-→ Uses copywriting skill
+"Design a 4-stage ad funnel for our new collection"
+→ Uses ad-creative skill
 
-"Set up GA4 tracking for signups"
-→ Uses analytics-tracking skill
-
-"Create a 5-email welcome sequence"
-→ Uses email-sequence skill
+"Find elite BTL partners in Gurugram"
+→ Uses partnership-scout skill
 ```
-
-You can also invoke skills directly:
-
-```
-/page-cro
-/email-sequence
-/seo-audit
-```
-
-## Skill Categories
-
-### Conversion Optimization
-- `page-cro` - Any marketing page
-- `signup-flow-cro` - Registration flows
-- `onboarding-cro` - Post-signup activation
-- `form-cro` - Lead capture forms
-- `popup-cro` - Modals and overlays
-- `paywall-upgrade-cro` - In-app upgrade moments
-
-### Content & Copy
-- `copywriting` - Marketing page copy
-- `copy-editing` - Edit and polish existing copy
-- `cold-email` - B2B cold outreach emails and sequences
-- `email-sequence` - Automated email flows
-- `social-content` - Social media content
-
-### SEO & Discovery
-- `seo-audit` - Technical and on-page SEO
-- `ai-seo` - AI search optimization (AEO, GEO, LLMO)
-- `programmatic-seo` - Scaled page generation
-- `site-architecture` - Page hierarchy, navigation, URL structure
-- `competitor-alternatives` - Comparison and alternative pages
-- `schema-markup` - Structured data
-
-### Paid & Distribution
-- `paid-ads` - Google, Meta, LinkedIn ad campaigns
-- `ad-creative` - Bulk ad creative generation and iteration
-- `social-content` - Social media scheduling and strategy
-
-### Measurement & Testing
-- `analytics-tracking` - Event tracking setup
-- `ab-test-setup` - Experiment design
-
-### Retention
-- `churn-prevention` - Cancel flows, save offers, dunning, payment recovery
-
-### Growth Engineering
-- `free-tool-strategy` - Marketing tools and calculators
-- `referral-program` - Referral and affiliate programs
-
-### Strategy & Monetization
-- `marketing-ideas` - 140 SaaS marketing ideas
-- `marketing-psychology` - Mental models and psychology
-- `launch-strategy` - Product launches and announcements
-- `pricing-strategy` - Pricing, packaging, and monetization
-
-### Sales & RevOps
-- `revops` - Lead lifecycle, scoring, routing, pipeline management
-- `sales-enablement` - Sales decks, one-pagers, objection docs, demo scripts
 
 ## Contributing
 
