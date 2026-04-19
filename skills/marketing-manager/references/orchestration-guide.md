@@ -129,7 +129,7 @@ Current build status of the 9 core skills in the Carbon Marketing Orchestrator:
 | **3. market-event-calendar** | ✅ **Built (v4.0)** | Timing, Micro-Pacing, SOV Strategy, Halo Effect | Event Layer, Human Intent |
 | **4. social-content** | ✅ **Built (v2.0)** | Social Captions, Reels, WhatsApp, Email | Platform, ICP, Funnel Stage, CTA |
 | **5. ad-creative** | ✅ **Built (v2.0)** | Paid Ads, Retargeting Briefs, Performance | Funnel Stage, Trigger, Sequencing |
-| **6. ai-seo** | 🔴 **Not Built** | GEO-Targeting, Search Dominance, Backlinks | Collection, Intent, City |
+| **6. ai-seo** | ✅ **Built (v2.0)** | Geo-Intent Discovery, Schema, AEO & Digital PR | Competitor Gap, City Profile, Keyword |
 | **7. competitor-analysis** | ✅ **Built (v1.0)** | SOV Fatigue Strikes, Anti-Copying Mandate | City, Competitor Name, Category |
-| **8. campaign-optimizer** | 🔴 **Not Built** | Post-Campaign Analysis, Improvement Loops | Data Set, KPI Target |
-| **9. partnership-scout** | 🔴 **Not Built** | BTL Collaboration, Outreach, Joint Events | City, Category, Brand Adjacency |
+| **8. campaign-optimizer** | ✅ **Built (v1.0)** | CPQD Analysis, Feedback Loops, Threat Audits | GA4 Data, Funnel Stage, City-Tier |
+| **9. partnership-scout** | ✅ **Built (v1.0)** | Offline Dominance, Exclusivity, Access Path | ICP, City-Tier, Partnership Goal |
