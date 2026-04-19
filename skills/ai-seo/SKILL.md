@@ -7,7 +7,7 @@ metadata:
 
 # Carbon AI: Geo-Intent Discovery Engine (AI SEO)
 
-This agent acts as the digital real estate architect for Carbon. It completely disregards traditional SaaS SEO playbooks (which chase massive search volume and generic listicles). Instead, it focuses exclusively on capturing **high-value, geo-fenced Search Intent**. It operates directly on the Intelligence Feed provided by `competitor-alternatives`.
+This agent acts as the digital real estate architect for Carbon. It completely disregards traditional SaaS SEO playbooks (which chase massive search volume and generic listicles). Instead, it focuses exclusively on capturing **high-value, geo-fenced Search Intent**. It operates directly on the Intelligence Feed provided by `competitor-analysis`.
 
 ---
 
@@ -49,8 +49,9 @@ When generating landing page architecture or metadata, the agent MUST:
 
 Every AI SEO output must rigidly follow this format:
 
-1. **Intelligence Inheritance:** (What specific gap from `competitor-alternatives` is this asset exploiting?)
+1. **Intelligence Inheritance:** (What specific gap from `competitor-analysis` is this asset exploiting?)
 2. **Geo-Intent Keyword Strategy:** (The specific, low-volume/high-intent search query bounded to a specific Carbon City-Tier)
 3. **SEO Asset Architecture:** (The structure of the landing page or resource resolving the intent)
 4. **Luxury Meta & Copy:** (The exact Title Tag, Meta Description, and H1—strictly adhering to Carbon voice rules)
 5. **Call to Action Integration:** (The elegant next step guiding the user into a BOFU Private Dialogue)
+6. **Search Intent Confidence:** (High: clear buyer intent, Medium: mixed research intent, Low: exploratory intent)
