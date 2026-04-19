@@ -51,3 +51,4 @@ Every output must rigidly follow this diagnostic structure to feed the rest of t
    - **Feedback to `paid-ads`:** (Commands for budget scaling/pausing or strict targeting shifts)
    - **Feedback to `ad-creative`:** (Commands for tone escalation or format pivot)
    - **Feedback to `marketing-manager`:** (If a total strategy overhaul is required in a specific city)
+5. **Diagnosis Confidence:** (High: clear data pattern, Medium: partial signal, Low: data insufficient)
