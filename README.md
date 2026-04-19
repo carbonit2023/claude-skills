@@ -59,6 +59,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [ai-seo](skills/ai-seo/) | Used by the Carbon AI Orchestrator as the Geo-Intent Discovery Engine. Weaponizes intelligence from Phase 3 to capture... |
 | [analytics-tracking](skills/analytics-tracking/) | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions... |
 | [aso-audit](skills/aso-audit/) | When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO... |
+| [campaign-optimizer](skills/campaign-optimizer/) | Used by the Carbon AI Orchestrator as the Performance Intelligence Engine. Audits measurement data from... |
 | [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
 | [cold-email](skills/cold-email/) | Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails,... |
 | [community-marketing](skills/community-marketing/) | Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a... |
