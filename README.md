@@ -62,7 +62,7 @@ See each skill's **Related Skills** section for the full dependency map.
 | [churn-prevention](skills/churn-prevention/) | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or... |
 | [cold-email](skills/cold-email/) | Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails,... |
 | [community-marketing](skills/community-marketing/) | Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a... |
-| [competitor-alternatives](skills/competitor-alternatives/) | Used by the Carbon AI Orchestrator as the Live Intelligence Engine. Analyzes competitor behavior not to copy them, but... |
+| [competitor-analysis](skills/competitor-analysis/) | Used by the Carbon AI Orchestrator as the Live Intelligence Engine. Analyzes competitor behavior not to copy them, but... |
 | [content-strategy](skills/content-strategy/) | When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also... |
 | [copy-editing](skills/copy-editing/) | When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the... |
 | [copywriting](skills/copywriting/) | When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages,... |
