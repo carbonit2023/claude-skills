@@ -1,5 +1,5 @@
 ---
-name: competitor-alternatives
+name: competitor-analysis
 description: "Used by the Carbon AI Orchestrator as the Live Intelligence Engine. Analyzes competitor behavior not to copy them, but to identify the Luxury Gap and execute SOV Fatigue Strikes."
 metadata:
   version: 1.0.0
