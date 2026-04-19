@@ -33,8 +33,16 @@ Every marketing request must follow this chain in order. **Do not skip steps.**
 - **Ahmedabad / Jamnagar:** Legacy Luxury / Community. Trust & Continuity / Celebration & Belonging. Family and occasion-led.
 - **Mumbai:** Premium Self-Purchase. Individuality & Self-Expression. Design-forward, self-directed buyer.
 
-### Step 3 — Skill Delegation
-Once strategy direction is set, delegate execution to the appropriate sub-skill. Each delegation must include a structured handoff brief — not just a task name. 
+### Step 3 — Live Intelligence & Reconnaissance
+Before generating copy, the agent must pull live reconnaissance to trigger SOV Fatigue Strikes and execute the Anti-Copying Mandate.
+- **Delegate to `competitor-analysis`** to pull:
+  - Active Market Noise
+  - Saturation Point Identification
+  - The Luxury Gap
+  - Phase 2 Intelligence Feed (Data passed precisely to Phase 2 skills).
+
+### Step 4 — Skill Delegation
+Once strategy direction and market gaps are validated, delegate execution to the appropriate sub-skill. Each delegation must include a structured handoff brief — not just a task name. 
 
 #### Handoff Brief Templates:
 
@@ -57,7 +65,7 @@ Once strategy direction is set, delegate execution to the appropriate sub-skill.
 - Frequency cap context (which touchpoint number is this?)
 - Previous creative format (for cross-channel sequencing rule)
 
-### Step 4 — Premium Validation Filter
+### Step 5 — Premium Validation Filter
 Before any output is delivered, apply the three-question **Jewel of Emotion Test**:
 1. **Is the jewellery the hero?** If a human being, price point, or promotion is more prominent, revise.
 2. **Does this make the customer feel something?** If it informs but does not move, it is not Carbon.
@@ -119,9 +127,9 @@ Current build status of the 9 core skills in the Carbon Marketing Orchestrator:
 | **1. marketing-manager** | ✅ **Built (v3.0)** | CMO Brain, Research, Orchestration, Validation | N/A (The Orchestrator) |
 | **2. monthly-activity-planner**| ✅ **Built (v3.0)** | Month-level ATL/BTL plans, Experience Architecture | City, Month, Budget, ICP |
 | **3. market-event-calendar** | ✅ **Built (v4.0)** | Timing, Micro-Pacing, SOV Strategy, Halo Effect | Event Layer, Human Intent |
-| **4. social-content** | ⚠️ **In Progress** | Social Captions, Reels, WhatsApp, Email | Platform, ICP, Funnel Stage, CTA |
-| **5. ad-creative** | ⚠️ **In Progress** | Paid Ads, Retargeting Briefs, Performance | Funnel Stage, Trigger, Sequencing |
+| **4. social-content** | ✅ **Built (v2.0)** | Social Captions, Reels, WhatsApp, Email | Platform, ICP, Funnel Stage, CTA |
+| **5. ad-creative** | ✅ **Built (v2.0)** | Paid Ads, Retargeting Briefs, Performance | Funnel Stage, Trigger, Sequencing |
 | **6. ai-seo** | 🔴 **Not Built** | GEO-Targeting, Search Dominance, Backlinks | Collection, Intent, City |
-| **7. competitor-analysis** | 🔴 **Not Built** | Benchmark Analysis, Gap Identification | Competitor Name, Category |
+| **7. competitor-analysis** | ✅ **Built (v1.0)** | SOV Fatigue Strikes, Anti-Copying Mandate | City, Competitor Name, Category |
 | **8. campaign-optimizer** | 🔴 **Not Built** | Post-Campaign Analysis, Improvement Loops | Data Set, KPI Target |
 | **9. partnership-scout** | 🔴 **Not Built** | BTL Collaboration, Outreach, Joint Events | City, Category, Brand Adjacency |
