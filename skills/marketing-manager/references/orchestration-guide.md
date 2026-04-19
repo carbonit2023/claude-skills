@@ -35,7 +35,7 @@ Every marketing request must follow this chain in order. **Do not skip steps.**
 
 ### Step 3 — Live Intelligence & Reconnaissance
 Before generating copy, the agent must pull live reconnaissance to trigger SOV Fatigue Strikes and execute the Anti-Copying Mandate.
-- **Delegate to `competitor-analysis`** to pull:
+- **Delegate to `competitor-alternatives`** to pull:
   - Active Market Noise
   - Saturation Point Identification
   - The Luxury Gap
@@ -130,6 +130,6 @@ Current build status of the 9 core skills in the Carbon Marketing Orchestrator:
 | **4. social-content** | ✅ **Built (v2.0)** | Social Captions, Reels, WhatsApp, Email | Platform, ICP, Funnel Stage, CTA |
 | **5. ad-creative** | ✅ **Built (v2.0)** | Paid Ads, Retargeting Briefs, Performance | Funnel Stage, Trigger, Sequencing |
 | **6. ai-seo** | 🔴 **Not Built** | GEO-Targeting, Search Dominance, Backlinks | Collection, Intent, City |
-| **7. competitor-analysis** | ✅ **Built (v1.0)** | SOV Fatigue Strikes, Anti-Copying Mandate | City, Competitor Name, Category |
+| **7. competitor-alternatives** | ✅ **Built (v1.0)** | SOV Fatigue Strikes, Anti-Copying Mandate | City, Competitor Name, Category |
 | **8. campaign-optimizer** | 🔴 **Not Built** | Post-Campaign Analysis, Improvement Loops | Data Set, KPI Target |
 | **9. partnership-scout** | 🔴 **Not Built** | BTL Collaboration, Outreach, Joint Events | City, Category, Brand Adjacency |
