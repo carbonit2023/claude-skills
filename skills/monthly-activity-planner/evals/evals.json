@@ -1,0 +1,134 @@
+{
+  "skill_name": "monthly-activity-planner",
+  "version": "2.0",
+  "description": "8-Eval Test Suite for the Carbon Monthly Activity Planner. Tests corrected tier hierarchy, Proof of Concept requirements, BTL selection, and brand-gate refusals.",
+  "evals": [
+    {
+      "id": 1,
+      "category": "BTL Layer — Noida",
+      "prompt": "Give me a BTL idea for the Noida branch tied to the Hues collection.",
+      "expected_output": "Should identify Noida as Rank 3 (below Gurugram), Premium-Plus / Status-Led. Should recommend Mixology & Magnificence. Should apply Status & Modernity trigger. Should produce ATL/BTL/TTL layers and 7-step process. Must include Proof of Concept section with real examples. Budget: Medium-High (₹3-7L).",
+      "assertions": [
+        "Identifies Noida as Rank 3, not flagship or Gurugram-equal",
+        "Selects Mixology & Magnificence from BTL pattern library",
+        "Names Status & Modernity as dominant trigger",
+        "Budget range is Medium-High (₹3-7L), not Premium",
+        "Provides 3-tier execution: ATL, BTL, TTL",
+        "Includes complete 7-step activation roadmap",
+        "Proof of Concept section present with real-world examples",
+        "No scientific apparatus or lab equipment recommended",
+        "Voice is Carbon-standard (British English, no mass-market language)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "category": "Bridal Event — Ahmedabad",
+      "prompt": "I want an activity for Ahmedabad for the upcoming wedding season.",
+      "expected_output": "Should identify Ahmedabad as Rank 1 Flagship. Should recommend Heirloom Masterclass or Weekend Bridal Salon. Should apply Trust & Continuity trigger. Budget/quality must reflect flagship status. Should include outreach protocol for bridal families. Must include Proof of Concept.",
+      "assertions": [
+        "Identifies Ahmedabad as Rank 1 Flagship",
+        "Recommends trust-building format (Heirloom Masterclass or Bridal Salon)",
+        "Does NOT recommend cocktail or mixology format for this city",
+        "Applies Trust & Continuity trigger",
+        "Budget reflects flagship status (quality-first, not low-cost)",
+        "Outreach protocol includes personal invites for bridal families",
+        "Proof of Concept section present",
+        "Applies 'Modern Heritage' voice nuance",
+        "7-step process included"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "category": "Tier Differentiation — Gurugram vs Noida",
+      "prompt": "Plan the same Diwali corporate gifting activation for both Gurugram and Noida. Show how they differ.",
+      "expected_output": "Should produce two distinct plans. Gurugram (Rank 2): higher budget, white-glove focus, Lifestyle Alignment trigger. Noida (Rank 3): lower budget ceiling, volume-conscious, Status & Modernity trigger. Should explicitly state that Gurugram outranks Noida.",
+      "assertions": [
+        "Produces two distinct plans, not one-size-fits-all",
+        "Gurugram identified as Rank 2; Noida identified as Rank 3",
+        "Budget ceiling for Gurugram is higher than Noida",
+        "Applies distinct triggers (Lifestyle Alignment vs Status & Modernity)",
+        "Applies distinct voice nuances (Considered Connoisseurship vs Intelligent Luxury)",
+        "Proof of Concept present for both cities",
+        "7-step process present for both"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "category": "Content & PoC — Mumbai",
+      "prompt": "Suggest a content Reel idea for the Hues coloured stone collection targeting Mumbai.",
+      "expected_output": "Should identify Mumbai as Rank 4 / Individuality trigger. Should recommend a format based on currently trending luxury Reels. Proof of Concept must cite at least one real-world account or campaign example. Concept must have hook, visual arc, pacing, music, and soft CTA.",
+      "assertions": [
+        "Proof of Concept section present citing a named real-world example",
+        "Identifies Mumbai as Individuality & Self-Expression trigger",
+        "Does not use bridal or family framing for Mumbai",
+        "Reel concept includes hook, visual arc, pacing, music mood, and CTA",
+        "CTA is a soft luxury verb (Explore/Discover, not Buy/Shop)",
+        "Applies coloured stone voice register (vivid, sensory)",
+        "No fabricated statistics used"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "category": "Negative Test — Lab Equipment",
+      "prompt": "I want to show customers how lab-grown diamonds are made. What's a good activity for the Noida store?",
+      "expected_output": "Should refuse to use microscopes or laboratory equipment. Should pivot to a Lifestyle Experience (Stone Stories or Design Atelier). Should explain why laboratory demos fail brand standards. Use beauty/story to drive Connoisseurship trigger.",
+      "assertions": [
+        "Does NOT recommend scientific apparatus or lab equipment",
+        "Explains that laboratory demos are off-brand for Carbon",
+        "Pivots to Lifestyle Experience (Stone Stories / Atelier)",
+        "Drives Connoisseurship trigger via beauty and story",
+        "Budget is realistic for Noida Rank 3",
+        "Proof of Concept present for the alternative idea"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "category": "Quality Gate — Ahmedabad Flagship",
+      "prompt": "What's a quick, low-cost event we can do at Ahmedabad next week for Navratri?",
+      "expected_output": "Should flag that Ahmedabad is the flagship and cannot do 'low-cost' events that compromise status. Should offer a time-compressed but high-quality option (e.g., Private Stylist Evening). Explains the tier implication.",
+      "assertions": [
+        "Flags that Rank 1 Flagship requires high quality even for quick events",
+        "Does not recommend a 'cheap' or low-invested option",
+        "Offers high-standard, executable alternative (e.g. Private Styling)",
+        "Explains tier logic for Ahmedabad",
+        "Applies Celebration & Belonging trigger for Navratri"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "category": "Multi-City Festival — Karwa Chauth",
+      "prompt": "Give me Karwa Chauth activations for Gurugram, Noida, and Jamnagar.",
+      "expected_output": "Three distinct plans. Gurugram (Rank 2): higher budget, gifting concierge. Noida (Rank 3): trunk show. Jamnagar (Rank 5): should flag low relevance and suggest a community alternative.",
+      "assertions": [
+        "Produces three distinct plans",
+        "Differentiates Gurugram and Noida by budget and strategy",
+        "Flags Jamnagar as a low-relevance market for Karwa Chauth and suggests alternative",
+        "Proof of Concept present for each city plan",
+        "All plans pass Jewel of Emotion test"
+      ],
+      "files": []
+    },
+    {
+      "id": 8,
+      "category": "Negative Test — Discount Refusal",
+      "prompt": "Write an event invite for our Noida Mixology evening. Include a 20% discount for early RSVPs.",
+      "expected_output": "Should refuse the 20% discount. Explain Carbon's no-discount policy. Reframe RSVP incentive as 'Access' or 'Privilege' (e.g. Priority Placement/First Look). Alternative invite must use Carbon voice.",
+      "assertions": [
+        "Does not produce an invite with discount language",
+        "Explains that Carbon does not use discounts even for RSVPs",
+        "Suggests alternative incentive (Access/Exclusivity/Priority)",
+        "Produces alternative invite in Carbon voice",
+        "CTA uses soft luxury verbs (Reserve/Explore)",
+        "British English, no exclamation marks, maison tone"
+      ],
+      "files": []
+    }
+  ],
+  "grading_guidance": "Evals 5, 6, and 8 are refusal/quality-gate tests. Compliance with the user's 'bad' request is a critical failure. The Proof of Concept (PoC) assertion is non-negotiable for all evals; missing a PoC section results in an automatic fail."
+}

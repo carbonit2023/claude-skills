@@ -1,0 +1,143 @@
+{
+  "skill_name": "market-event-calendar",
+  "version": "4.0",
+  "description": "8-Eval Test Suite. Tests Master Timing Orchestrator logic, including SOV, Micro-Pacing, Phase 4 Post-Event Halo, city hierarchy, role boundaries, and discount refusal.",
+  "global_rules": {
+    "proof_of_concept_mandatory": "Every response must include at least one of: competitor timing, cultural insight, or Muhurat check. Missing PoC = automatic fail.",
+    "role_boundary": "This skill ONLY outputs: timing roadmap, layer classification, phase dates, and handoff brief. It does NOT create content, campaigns, or BTL ideas.",
+    "city_hierarchy": "Ahmedabad > Gurugram > Noida > Mumbai > Jamnagar. No exceptions. Ahmedabad always gets the longest lead time.",
+    "no_discount_ever": "Emotional Layer events (Layer 2) must never be framed as sales opportunities."
+  },
+  "evals": [
+    {
+      "id": 1,
+      "status": "PASS_REQUIRED",
+      "category": "Flagship Timing — Ahmedabad Navratri",
+      "prompt": "Plan the timing roadmap for the Ahmedabad Navratri campaign.",
+      "expected_output": "Identifies Ahmedabad as Rank 1 Flagship. Sets Awareness at T-8 weeks — longer than all other cities. Classifies Navratri as Layer 1 (Retail/Conversion). Includes PoC with competitor timing SOV, Garba cultural trend insight, and Muhurat check. Outputs clear 4-phase roadmap including Phase 4 Post-Event Halo and Micro-Pacing (Days of Week). Handoff to monthly-activity-planner + ad-creative.",
+      "assertions": [
+        "Identifies Ahmedabad as Rank 1 Flagship",
+        "Awareness phase starts 6–8 weeks before Navratri",
+        "Lead time is longer than any other city's lead time",
+        "PoC section analyzes SOV (Share of Voice) and competitor timing",
+        "PoC section includes Garba/cultural trend insight",
+        "Outputs complete 4-Phase Roadmap including Phase 4 (Halo Effect)",
+        "Assigns correct Day-of-Week Micro-Pacing to each phase",
+        "Handoff correctly directed to monthly-activity-planner + ad-creative",
+        "Zero discount language anywhere in the output"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "status": "REFUSAL_REQUIRED",
+      "category": "Negative Test — Emotional Event (Mother's Day)",
+      "prompt": "Create a 1-week flash sale plan for Mother's Day.",
+      "expected_output": "Must REFUSE the flash sale request. Explains that Mother's Day is Layer 2 (Emotional) and incompatible with sales framing. Pivots to a 3-week storytelling and gifting timeline. Includes PoC on how luxury brands approach gifting storytelling. Handoff to social-content.",
+      "assertions": [
+        "Refuses the flash sale request explicitly",
+        "Classifies Mother's Day as Layer 2: Emotional (Connection)",
+        "Explains that Emotional Layer events must not be framed as sales",
+        "Proposes a 3-week storytelling roadmap instead",
+        "PoC section references how brands approach gifting storytelling",
+        "No urgency or discount language anywhere",
+        "Handoff correctly directed to social-content"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "status": "PASS_REQUIRED",
+      "category": "Competitor Research — Valentine's Day (Gurugram)",
+      "prompt": "When should we launch the Valentine's Day campaign in Gurugram?",
+      "expected_output": "Identifies Gurugram as Rank 2. Sets Awareness at T-4 weeks. Research is conducted BEFORE the answer is given. PoC includes competitor launch timing (Tanishq, Amrapali, etc.) and social trend insight. Classifies as Layer 2: Emotional. Handoff to social-content + monthly-activity-planner.",
+      "assertions": [
+        "Research is conducted before timing is declared — not guessed",
+        "Identifies Gurugram as Rank 2 (Lifestyle Alignment)",
+        "Sets T-4 weeks for Awareness phase",
+        "PoC analyzes Macro SOV (Share of Voice) vs Competitors (Tanishq/Amrapali)",
+        "PoC includes social/Instagram trend insight for Valentine's",
+        "Classifies as Layer 2: Emotional (Gifting)",
+        "Timeline includes 4-Phase structure with Day-of-Week Micro-Pacing",
+        "Handoff directed to social-content + monthly-activity-planner"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "status": "PASS_REQUIRED",
+      "category": "Regional Relevance — Karwa Chauth (Noida vs Jamnagar)",
+      "prompt": "Plan Karwa Chauth timing for Noida and Jamnagar.",
+      "expected_output": "Noida (Rank 3): Strong Layer 2 Emotional activation, 3-week build-up. Jamnagar (Rank 5): Flagged as low-relevance for Karwa Chauth. Suggests alternative timing pivot to Wedding Season or Navratri. Two separate timelines produced. PoC includes regional cultural insight for both.",
+      "assertions": [
+        "Produces two distinct plans — does NOT apply same timeline to both cities",
+        "Noida correctly identified as Rank 3 with strong Emotional Layer activation",
+        "Noida timeline is 3-week build-up",
+        "Jamnagar flagged as low-relevance for Karwa Chauth",
+        "Suggests a more appropriate timing alternative for Jamnagar (Navratri or Wedding)",
+        "PoC includes regional cultural insight for both cities"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "status": "REFUSAL_REQUIRED",
+      "category": "Negative Test — No Research (Akshaya Tritiya)",
+      "prompt": "Give me the timing for Akshaya Tritiya quickly — no need to research.",
+      "expected_output": "Must REFUSE to answer without research. Explains that PoC (Muhurat, competitor window, cultural sentiment) is mandatory before any timing is declared. Proceeds to conduct and document the research, then provides the timing.",
+      "assertions": [
+        "Refuses to skip the Proof of Concept research step",
+        "Explains that PoC is mandatory — no exceptions",
+        "Proceeds to identify the Muhurat for the current year",
+        "Proceeds to research competitor launch windows for Akshaya Tritiya",
+        "Only then outputs the timing roadmap"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "status": "REFUSAL_REQUIRED",
+      "category": "Negative Test — Role Boundary (Full Campaign Request)",
+      "prompt": "Give me a full Diwali campaign plan including creatives and BTL activities.",
+      "expected_output": "Must REFUSE to create creatives or BTL activities. Explains its role is limited to timing, layer classification, Micro-Pacing, and handoff briefs. Provides: 4-phase timing roadmap, phase dates, day-of-week deployments, and handoff to monthly-activity-planner + social-content + ad-creative.",
+      "assertions": [
+        "Refuses to create creative content or BTL activities",
+        "Explains role boundary — timing, micro-pacing, and handoff only",
+        "Does NOT produce any copy, imagery direction, or event concepts",
+        "Provides 4-Phase timing roadmap",
+        "Correctly hands off to monthly-activity-planner, social-content, and ad-creative"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "status": "REFUSAL_REQUIRED",
+      "category": "Negative Test — Same Timeline Across Cities",
+      "prompt": "Use the same Navratri timing plan for both Ahmedabad and Noida.",
+      "expected_output": "Must REFUSE to apply the same timeline. Explains that city lead times differ by rank. Outputs: Ahmedabad → T-8 weeks (Rank 1 Flagship); Noida → T-3 weeks (Rank 3).",
+      "assertions": [
+        "Refuses to apply the same timeline to both cities",
+        "Explains that city hierarchy determines lead time",
+        "Ahmedabad lead time is 6–8 weeks",
+        "Noida lead time is 3 weeks",
+        "City hierarchy is enforced without exception"
+      ],
+      "files": []
+    },
+    {
+      "id": 8,
+      "status": "REFUSAL_REQUIRED",
+      "category": "Negative Test — Discount in Emotional Event",
+      "prompt": "Add a discount offer to the Valentine's Day campaign timing.",
+      "expected_output": "Must REFUSE to include any discount. Explains that Valentine's Day is Layer 2 (Emotional) and luxury positioning forbids discount mechanics. Offers to reframe the timing around gifting storytelling and concierge access instead.",
+      "assertions": [
+        "Refuses to include discount language in the timing plan",
+        "Explains Layer 2 Emotional events are incompatible with discounts",
+        "Maintains luxury positioning throughout",
+        "Offers a repositioned timing brief (gifting story / concierge access)"
+      ],
+      "files": []
+    }
+  ],
+  "grading_guidance": "Tests 2, 5, 6, 7, and 8 are critical refusal gates — compliance with the user's incorrect request = automatic total failure. The PoC assertion is non-negotiable across all 8 evals. Any timing output without documented research fails regardless of accuracy. Role boundary violations (creating content, campaigns, or BTL ideas) are treated as critical failures."
+}

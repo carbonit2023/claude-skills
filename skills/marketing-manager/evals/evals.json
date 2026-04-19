@@ -1,0 +1,169 @@
+{
+  "skill_name": "marketing-manager",
+  "version": "2.0",
+  "description": "Evaluation suite for Carbon's AI marketing manager skill. Tests strategic reasoning, city-profile application, voice compliance, BTL selection, and end-to-end roadmap quality.",
+
+  "evals": [
+
+    {
+      "id": 1,
+      "category": "Collection Launch — City-Specific",
+      "prompt": "We are launching the 'Hues' coloured stone collection in Noida next month. What is the plan?",
+      "expected_output": "Should read product-marketing-context.md and location-profiles.md first. Should identify Noida as Ultra-Premium / Status-Led with psychological trigger 'Status & Modernity'. Should select a high-end BTL format (e.g. Mixology & Magnificence or Curated Cocktail Evening) from btl-ideas-bank.md. Should apply 'Intelligent Luxury' voice nuance. Should produce a complete 7-step activation roadmap. Should frame Hues as a coloured stone collection using the vivid/sensory voice register. Should apply the Jewel of Emotion test.",
+      "assertions": [
+        "Reads product-marketing-context.md before planning",
+        "Reads location-profiles.md and identifies Noida as Ultra-Premium",
+        "Identifies dominant trigger as Status & Modernity",
+        "Selects a BTL activation appropriate for Noida tier (cocktail, mixology, trunk show)",
+        "Does not recommend microscopes or laboratory demonstration",
+        "Applies coloured stone voice register (vivid, sensory, wonder-struck)",
+        "Applies Noida voice nuance (Intelligent Luxury, design-forward)",
+        "Produces complete 7-step roadmap",
+        "Includes budget range and lead time",
+        "All copy passes Jewel of Emotion test",
+        "No mass-market language used"
+      ]
+    },
+
+    {
+      "id": 2,
+      "category": "Event Planning — Bridal, City-Specific",
+      "prompt": "How do we handle a bridal event in Ahmedabad next month?",
+      "expected_output": "Should identify Ahmedabad as Legacy Luxury with psychological trigger 'Trust & Continuity'. Should recommend an Heirloom Masterclass or Weekend Bridal Salon from the BTL ideas bank. Should apply Modern Heritage voice nuance (warm, unhurried, story-rich). Should flag that the event must feel educational and not like a sales push. Should produce a 7-step execution roadmap with practical checklist. Budget must be realistic (Low–Medium range). Should not recommend high-energy or influencer-heavy formats.",
+      "assertions": [
+        "Identifies Ahmedabad as Legacy Luxury tier",
+        "Identifies Trust & Continuity as the dominant trigger",
+        "Recommends trust-building BTL format (Heirloom Masterclass or Bridal Salon)",
+        "Applies Modern Heritage voice nuance",
+        "Uses legacy/trust language: heirloom, craftsmanship, generational, certified",
+        "Flags that hard selling in the room is a key risk",
+        "Budget is realistic (Low–Medium, not Premium)",
+        "Does not recommend cocktail events or mixology (wrong format for this city/audience)",
+        "Produces 7-step roadmap",
+        "Includes guest profile and venue guidance",
+        "All copy is in Carbon voice (British English, maison-level)"
+      ]
+    },
+
+    {
+      "id": 3,
+      "category": "Self-Purchase Strategy — Mumbai",
+      "prompt": "We want to drive self-purchase sales among working women in Mumbai. What should our approach be?",
+      "expected_output": "Should identify Mumbai as Premium / Self-Purchase Leader with trigger 'Individuality & Self-Expression'. Should apply ICP 3 (The Self-Purchase Woman). Should recommend editorial-style content, panel events, or capsule collection drops. Should apply 'Fierce Refinement' voice nuance. Should avoid bridal framing entirely. Should produce a multi-touchpoint strategy across content, event, and channel.",
+      "assertions": [
+        "Identifies Mumbai location profile correctly",
+        "Applies ICP 3 (Self-Purchase Woman)",
+        "Identifies Individuality & Self-Expression as dominant trigger",
+        "Recommends editorial content, panel events, or capsule drops",
+        "Does not recommend bridal or family-oriented formats",
+        "Applies Fierce Refinement voice nuance",
+        "Content is direct and emotionally intelligent, not sentimental",
+        "Includes channel guidance (Instagram, editorial, in-store styling)",
+        "Passes Jewel of Emotion test",
+        "No mass-market language"
+      ]
+    },
+
+    {
+      "id": 4,
+      "category": "Festive Campaign — Multi-City",
+      "prompt": "Plan our Diwali campaign across Ahmedabad, Noida, and Jamnagar. Each city should have its own activation.",
+      "expected_output": "Should pull location profiles for all three cities. Should apply different psychological triggers per city: Trust & Continuity (Ahmedabad), Status & Modernity (Noida), Celebration & Belonging (Jamnagar). Should recommend differentiated BTL formats per city from the ideas bank. Should produce a 7-step roadmap that accommodates all three. Should flag that Diwali is a gifting-heavy moment and adjust strategy accordingly. All copy must be in Carbon voice.",
+      "assertions": [
+        "Reads all three city profiles",
+        "Applies correct psychological trigger for each city",
+        "Recommends distinct BTL formats per city (not the same event in three places)",
+        "Includes Festive Gifting Suite as a relevant format for at least one city",
+        "Applies different voice nuances per city within the same Carbon framework",
+        "Produces 7-step roadmap",
+        "Includes budget ranges per city",
+        "Addresses the gifting dimension of Diwali",
+        "No city is treated as interchangeable with another",
+        "All copy passes the Jewel of Emotion test"
+      ]
+    },
+
+    {
+      "id": 5,
+      "category": "Content Brief — Lab-Grown Storytelling",
+      "prompt": "Write a content brief for a series of Instagram Reels telling the lab-grown diamond story in Carbon's voice.",
+      "expected_output": "Should apply the Connoisseurship & Knowledge trigger. Should frame lab-grown as innovation and consciousness — never as a disclaimer or a cost-saving choice. Should apply the Everyday Fine or Statement category voice as appropriate. Should NOT use words like 'artificial', 'imitation', 'cheap', or 'affordable'. Should produce reel concepts, copy direction, visual direction, and CTA. Should include audience ICP.",
+      "assertions": [
+        "Identifies Connoisseurship & Knowledge as dominant trigger",
+        "Uses 'Lab-Grown Innovation' framing, never 'artificial' or 'imitation'",
+        "Produces at least 3 distinct reel concepts",
+        "Each reel concept includes: hook, narrative arc, visual direction, CTA",
+        "CTAs use Carbon soft verbs (Explore, Discover) not 'Buy Now' or 'Shop'",
+        "No exclamation marks in copy",
+        "Identifies target ICP for the series",
+        "Passes Jewel of Emotion test (jewellery is the hero, not the laboratory)",
+        "All copy is in British English, maison-level",
+        "Includes platform guidance (Instagram Reels format, length, caption approach)"
+      ]
+    },
+
+    {
+      "id": 6,
+      "category": "Voice Compliance — Negative Test",
+      "prompt": "Write a promotional post for a Diwali sale with 20% off all diamond jewellery.",
+      "expected_output": "Should refuse to write a discount-led post in that framing. Should explain that Carbon does not use 'sale', 'discount', or percentage-off language. Should offer to reframe as a 'Celebratory Offer' or 'Selective Value' activation in Carbon's voice instead. Should produce an alternative version using Carbon-appropriate festive framing.",
+      "assertions": [
+        "Does not produce a post using 'sale', 'discount', or '20% off' language",
+        "Explains the brand restriction on discount framing",
+        "Offers an alternative framing (Celebratory Offer or Selective Value)",
+        "Produces an alternative Diwali post in Carbon voice",
+        "Alternative post passes the Jewel of Emotion test",
+        "Alternative post uses festive/occasion language, not promotional language",
+        "No exclamation marks",
+        "British English throughout"
+      ]
+    },
+
+    {
+      "id": 7,
+      "category": "Corporate Gifting Strategy — Gurugram",
+      "prompt": "How should we approach corporate gifting for Q4 in Gurugram?",
+      "expected_output": "Should identify Gurugram as Corporate-Lifestyle tier with trigger 'Lifestyle Alignment'. Should recommend the Corporate Gifting Concierge approach from the BTL ideas bank. Should apply ICP 4 (Occasion Celebrant) in the corporate context. Should produce a strategy covering: target companies/industries, outreach approach, gifting range curation, packaging and presentation, concierge delivery, and follow-up. Should flag that white-glove delivery is essential.",
+      "assertions": [
+        "Identifies Gurugram location profile correctly",
+        "Applies Lifestyle Alignment trigger",
+        "Recommends Corporate Gifting Concierge as format",
+        "Includes target industry/company profile guidance",
+        "Addresses packaging and presentation as a differentiator",
+        "Flags white-glove delivery as essential",
+        "Produces outreach strategy (not just the event brief)",
+        "Includes budget range for gifting items",
+        "Includes follow-up protocol",
+        "No discount or deal framing",
+        "Carbon voice maintained throughout"
+      ]
+    },
+
+    {
+      "id": 8,
+      "category": "Jewel of Emotion Test — Quality Gate",
+      "prompt": "Review this copy and tell me if it passes Carbon's standards: 'Carbon diamonds are chemically identical to mined diamonds but cost 40% less. Get yours today. Shop now at carbon.co.in'",
+      "expected_output": "Should identify multiple failures: 'cost 40% less' is price-led and discount-framing; 'Get yours today' is transactional; 'Shop now' is a mass-market CTA. Should apply the Jewel of Emotion test formally. Should produce a corrected version in Carbon voice that tells the same factual story without price-leading.",
+      "assertions": [
+        "Identifies 'cost 40% less' as a brand standards violation",
+        "Identifies 'Get yours today' as transactional and non-maison",
+        "Identifies 'Shop now' as a mass-market CTA violation",
+        "References the Jewel of Emotion test formally",
+        "Produces a corrected version",
+        "Corrected version does not lead with price",
+        "Corrected version uses Carbon-approved CTA (Explore, Discover)",
+        "Corrected version frames lab-grown as innovation, not cost-saving",
+        "Corrected version is in British English",
+        "Corrected version passes all three Jewel of Emotion questions"
+      ]
+    }
+
+  ],
+
+  "eval_notes": {
+    "grading_guidance": "Each assertion is binary (pass/fail). A score of 8/8 on all assertions for a given eval = full pass. A score of 6/8 or above = acceptable. Below 6/8 = skill revision required for that task type.",
+    "priority_assertions": "Assertions relating to voice compliance (no mass-market language, no discount framing, British English, Jewel of Emotion test) are non-negotiable. A fail on any of these is a critical failure regardless of overall score.",
+    "regression_tests": "Evals 6 and 8 are negative/quality-gate tests. The skill must refuse or correct the input, not comply with it. Compliance on these evals is a critical failure.",
+    "city_profile_dependency": "Evals 1, 2, 3, 4, 7 all depend on location-profiles.md being read. If the skill produces a generic output without city-specific differentiation, it has failed to read the reference file."
+  }
+}

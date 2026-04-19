@@ -1,0 +1,103 @@
+{
+  "version": "3.0",
+  "bank_identity": "Carbon Timing Intelligence Bank",
+  "metadata": {
+    "priority_focus": "Ahmedabad Flagship (Rank 1)",
+    "intent_mapping": "Enabled"
+  },
+  "engagement_windows": [
+    {
+      "event": "Navratri",
+      "primary_impact": "Ahmedabad (Rank 1 Flagship)",
+      "layer": "Layer 1: Retail (Conversion)",
+      "psychological_trigger": "Celebration & Belonging",
+      "cultural_sentiment": "Legacy, Community Pride, High-Energy Gifting",
+      "aesthetic_direction": "Vivid festive tones, movement, craftsmanship detail",
+      "lead_time_awareness": "8 Weeks (Ahmedabad) / 4 Weeks (Others)",
+      "muhurat_peak_hours": "Search mandatory for current year"
+    },
+    {
+      "event": "Diwali & Dhanteras",
+      "primary_impact": "National (Ahmedabad Priority)",
+      "layer": "Layer 1: Retail (Conversion)",
+      "psychological_trigger": "Trust & Continuity",
+      "cultural_sentiment": "Prosperity, Auspiciousness, Multi-generational Investment",
+      "aesthetic_direction": "Cinematic warm light, heirloom framing, legacy luxury",
+      "lead_time_awareness": "6 Weeks",
+      "strategic_note": "Corporate gifting (NCR focus) starts 10 weeks prior"
+    },
+    {
+      "event": "Wedding Season (Nov-Feb)",
+      "primary_impact": "Ahmedabad (Bridal Focus)",
+      "layer": "Layer 1: Retail (Conversion)",
+      "psychological_trigger": "Trust & Legacy",
+      "cultural_sentiment": "Family Endorsement, Permanence, New Beginnings",
+      "aesthetic_direction": "Intimate, high-resolution craftsmanship, emotional bridal hooks",
+      "lead_time_awareness": "Continuous Nurture / 12 Week Cycles"
+    },
+    {
+      "name": "Karwa Chauth",
+      "primary_impact": "NCR (Gurugram Rank 2 / Noida Rank 3)",
+      "layer": "Layer 2: Emotional (Connection)",
+      "psychological_trigger": "Status & Romantic Gifting",
+      "cultural_sentiment": "Adoration, Devotion, Modern Tradition",
+      "aesthetic_direction": "Soft moonlight, romantic intimate framing",
+      "lead_time_awareness": "3 Weeks (NCR focus only)"
+    },
+    {
+      "event": "Valentine's Day",
+      "primary_impact": "Mumbai / Gurugram",
+      "layer": "Layer 2: Emotional (Connection)",
+      "psychological_trigger": "Individuality & Expression",
+      "cultural_sentiment": "Modern Love, Self-Gifting, First Commissions",
+      "aesthetic_direction": "Editorial, sharp, fashion-forward",
+      "lead_time_awareness": "3 Weeks"
+    },
+    {
+      "event": "Akshaya Tritiya",
+      "primary_impact": "Ahmedabad / Jamnagar",
+      "layer": "Layer 1: Retail (Conversion)",
+      "psychological_trigger": "Trust & Continuity",
+      "cultural_sentiment": "Auspicious Starting, Eternal Value",
+      "aesthetic_direction": "Solar gold palette, minimalist prestigious framing",
+      "lead_time_awareness": "4 Weeks"
+    },
+    {
+      "event": "Corporate Bonus Season (Liquidity Event)",
+      "primary_impact": "Gurugram / Noida",
+      "layer": "Layer 1: Retail (Conversion)",
+      "psychological_trigger": "Status & Individuality",
+      "cultural_sentiment": "Self-Reward, Wealth Actualization, Professional Milestone",
+      "aesthetic_direction": "Sharp, modern, boardroom-to-evening prestige",
+      "lead_time_awareness": "2 Weeks (Fast execution due to liquid capital)",
+      "strategic_note": "Timing hits March/April. Pivot from family investment to self-reward."
+    },
+    {
+      "event": "NRI Arrival Window (Liquidity Event)",
+      "primary_impact": "Ahmedabad / Jamnagar",
+      "layer": "Layer 1: Retail / Layer 2: Emotional",
+      "psychological_trigger": "Trust & Belonging",
+      "cultural_sentiment": "Homecoming, Nostalgia, Wealth Transfer",
+      "aesthetic_direction": "Hyper-traditional, rooted, grand architectural backdrops",
+      "lead_time_awareness": "6 Weeks (Targeting digital awareness in US/UK/UAE before flight)",
+      "strategic_note": "Hits Mid-December. Requires global digital geo-targeting prior to arrival."
+    },
+    {
+      "event": "The Winter Micro-Climate Drop",
+      "primary_impact": "Gurugram / Noida",
+      "layer": "Layer 3: Lifestyle (Visibility)",
+      "psychological_trigger": "Status & Modernity",
+      "cultural_sentiment": "High Society Season, Galas, Winter Couture",
+      "aesthetic_direction": "Cashmere, heavy silks, layering with statement pieces",
+      "lead_time_awareness": "Triggered by weather (Usually early Nov)",
+      "strategic_note": "Null for Mumbai. Mumbai must pivot to Resort/Travel wear during this exact same week."
+    }
+  ],
+  "exclusion_rules": [
+    {
+      "rule": "Low Relevance Flagging",
+      "condition": "If event (e.g. Karwa Chauth) is proposed for Jamnagar or Mumbai",
+      "action": "Flag as secondary priority and recommend pivot to Navratri or Self-Purchase styles."
+    }
+  ]
+}
