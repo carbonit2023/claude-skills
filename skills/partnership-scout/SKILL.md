@@ -92,3 +92,6 @@ Every scout output must rigidly follow this 7-step blueprint:
 
 7. **Feasibility Score**
    - High (Clear access, perfect alignment) / Medium (Great alignment, hard access) / Low (Aspirational only)
+
+8. **Brand Risk Level:**
+   - Low (perfect alignment) / Medium (minor dilution risk) / High (requires strict control)
