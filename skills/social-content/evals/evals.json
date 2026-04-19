@@ -3,88 +3,50 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "Help me create a LinkedIn content strategy. I'm a SaaS founder building in public and want to grow my personal brand to drive awareness for my product. I currently have 500 followers and post maybe once a week.",
-      "expected_output": "Should check for product-marketing-context.md first. Should establish content pillars (3-5) appropriate for a SaaS founder building in public: industry insights, behind-the-scenes, educational content, personal stories, promotional (minimal). Should apply the platform quick reference for LinkedIn (3-5x/week recommended, carousels and stories perform well). Should provide hook formulas for LinkedIn posts. Should create a weekly content calendar. Should include engagement strategy (daily 30-min routine). Should address going from 1x/week to 3-5x/week with a batching strategy.",
+      "prompt": "Create a Diwali campaign for Ahmedabad.",
+      "expected_output": "Should recognize Ahmedabad as Trust & Legacy. Should fulfill Inheritance Requirement. Must output the strict 5-element PoC before content. Should deliver a Creative Brief and Content Delivery using Maison-level tone, with invitation-based CTAs instead of urgencies. Should include a Private Dialogue WhatsApp follow-up.",
       "assertions": [
-        "Checks for product-marketing-context.md",
-        "Establishes 3-5 content pillars",
-        "Applies LinkedIn platform guidance",
-        "Provides hook formulas",
-        "Creates weekly content calendar",
-        "Includes engagement strategy",
-        "Addresses batching strategy for consistency",
-        "Recommends increasing from 1x to 3-5x per week"
+        "Identifies Ahmedabad City-Tier as Trust & legacy",
+        "Includes Proof of Concept with 5 elements",
+        "Uses Output Structure (Context, PoC, Brief, Delivery, Private Dialogue)",
+        "Applies Luxury Gate (no discounts/urgency)"
       ],
       "files": []
     },
     {
       "id": 2,
-      "prompt": "Write me a Twitter/X thread about the lessons I learned bootstrapping my SaaS to $10k MRR. Include hooks and a CTA at the end.",
-      "expected_output": "Should apply the hook formulas for a story hook (e.g., '6 months ago, I had $0 MRR. Today, I hit $10k.'). Should structure the thread following platform best practices: strong hook in tweet 1, each tweet should stand alone but flow together, use specific numbers and stories, end with a CTA. Should reference the content pillar this fits into (behind-the-scenes / founder journey). Should provide the actual thread content with 8-12 tweets. Should include engagement prompts.",
+      "prompt": "Run a 20% off flash sale post for Instagram reels.",
+      "expected_output": "Should trigger the Luxury Gate. Must explicitly reject the use of discounts and urgency ('flash sale'). Should rewrite the prompt into an invitation-based Maison-level tone for Instagram reels.",
       "assertions": [
-        "Applies hook formulas from the skill",
-        "Uses a story hook for the first tweet",
-        "Structures thread with standalone but flowing tweets",
-        "Uses specific numbers and stories",
-        "Ends with clear CTA",
-        "Provides 8-12 tweet thread content",
-        "Includes engagement prompts"
+        "Rejects discount and flash sale request",
+        "Enforces Luxury Gate",
+        "Rewrites into Maison-level tone",
+        "Uses invitation-based CTA"
       ],
       "files": []
     },
     {
       "id": 3,
-      "prompt": "i have a blog post that did really well. how do i turn it into social media content for multiple platforms?",
-      "expected_output": "Should trigger on casual phrasing. Should apply the content repurposing system. Should use the Blog Post → Social Content mapping: LinkedIn (key insight post + carousel of main points), Twitter/X (thread of key takeaways), Instagram (carousel with visuals + Reel summarizing the post). Should follow the repurposing workflow: create pillar content → extract key insights (3-5) → adapt to each platform → schedule across the week. Should provide specific format recommendations per platform.",
+      "prompt": "Generate a luxury reel concept discussing our craftsmanship. I didn't specify a city.",
+      "expected_output": "Should trigger the City-Tier Requirement. Agent must explicitly ask for the city OR state a clear assumption (e.g., 'Assuming Mumbai for Individuality') before proceeding. Must output PoC and follow the strict 5-part Output Structure.",
       "assertions": [
-        "Triggers on casual phrasing",
-        "Applies content repurposing system",
-        "Uses Blog Post → Social Content mapping",
-        "Provides format for LinkedIn, Twitter/X, and Instagram",
-        "Follows the repurposing workflow",
-        "Extracts 3-5 key insights to repurpose",
-        "Provides platform-specific format recommendations"
+        "Asks for City-Tier OR explicitly states assumption",
+        "Includes Proof of Concept with 5 elements",
+        "Follows strict Output Structure",
+        "Delivers 3 hooks and caption",
+        "Includes Private Dialogue setup"
       ],
       "files": []
     },
     {
       "id": 4,
-      "prompt": "My LinkedIn posts get like 200 impressions and almost no engagement. What am I doing wrong?",
-      "expected_output": "Should apply the analytics and optimization section, specifically the 'if engagement is low' guidance. Should diagnose potential issues: weak hooks (first line not compelling), posting at wrong times, not engaging with others' content, poor formatting (no line breaks, walls of text), content not resonating with audience. Should recommend specific fixes: test new hook formulas, post at different times, increase engagement with others (the daily engagement routine), try different formats (carousels, stories). Should provide before/after hook examples.",
+      "prompt": "Rewrite this mass-market caption: 'Hurry up guys! Limited seats left for our new diamond collection preview. Link in bio! 💎🔥🚀'",
+      "expected_output": "Should trigger the Luxury Gate. Must strip out all cheap slang, excessive emojis, urgency ('Hurry up', 'Limited seats'), and generic hooks ('Link in bio'). Must rewrite using 'Jewel of Emotion' storytelling, yielding an elegant invitation to experience the craft.",
       "assertions": [
-        "Applies analytics and optimization guidance",
-        "Diagnoses potential engagement issues",
-        "Addresses hook quality",
-        "Addresses posting timing",
-        "Recommends daily engagement routine",
-        "Suggests trying different content formats",
-        "Provides specific before/after hook examples"
-      ],
-      "files": []
-    },
-    {
-      "id": 5,
-      "prompt": "Help me reverse-engineer what's working for top creators in the DevTools space on Twitter. I want to understand their content patterns.",
-      "expected_output": "Should apply the reverse engineering viral content framework. Should walk through the process: identify 10-20 top accounts in DevTools, collect high-performing posts, analyze patterns (hooks, formats, CTAs, topics, posting times), codify a playbook of repeatable patterns, then layer the user's authentic voice. Should provide specific guidance on what to look for in the analysis. Should recommend tools or methods for collecting the data.",
-      "assertions": [
-        "Applies reverse engineering viral content framework",
-        "Walks through the full process (find, collect, analyze, codify, apply)",
-        "Recommends identifying 10-20 accounts",
-        "Describes what patterns to analyze",
-        "Emphasizes layering authentic voice",
-        "Provides data collection guidance"
-      ],
-      "files": []
-    },
-    {
-      "id": 6,
-      "prompt": "Write me a 5-email welcome sequence for new email subscribers who came from my LinkedIn audience.",
-      "expected_output": "Should recognize this is an email sequence task, not social content. Should defer to or cross-reference the email-sequence skill, which handles welcome sequences, drip campaigns, and lifecycle emails. May note the social-to-email bridge context but should make clear that email-sequence is the right skill for writing email sequences.",
-      "assertions": [
-        "Recognizes this as email sequence work",
-        "References or defers to email-sequence skill",
-        "Does not attempt to write email sequence using social content patterns",
-        "May note social-to-email bridge context"
+        "Removes mass-market tone and excessive emojis",
+        "Removes urgency tactics",
+        "Rewrites CTA to an elegant invitation",
+        "Applies Emotional storytelling pillar"
       ],
       "files": []
     }
