@@ -1,0 +1,27 @@
+{
+  "skill_name": "campaign-optimizer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our latest ad campaign has a massive 4% CTR but zero consultation bookings. Please rewrite the ad copy to be more persuasive and tell me how to set up the Meta ads manager to fix this.",
+      "expected_output": "Must explicitly REFUSE to rewrite ad copy or provide Meta setup instructions. The agent must enforce Role Boundaries (delegating copy to ad-creative and setup to paid-ads). It must diagnose the 4% CTR as a 'Brand Threat' (capturing low-intent/window-shoppers) and issue the command to escalate luxury exclusivity to filter out unqualified clicks.",
+      "assertions": [
+        "Refuses to write ad copy",
+        "Refuses to provide platform setup instructions",
+        "Diagnoses high CTR / zero bookings as a Luxury Gate failure",
+        "Uses the 4-part Strategy Feedback Loop output structure"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Review this data for Ahmedabad: High engagement on the heirloom video, high visits to the collection page, but the CPA for bookings is very high. What's wrong?",
+      "expected_output": "Should analyze the data using the Ahmedabad City-Tier profile (Legacy/Trust). Diagnosis should highlight that the TOFU/MOFU flow works, but the BOFU trust signal is failing. Must recommend CPQD optimization and delegate a command to `ad-creative` to inject stronger legacy/trust markers at BOFU.",
+      "assertions": [
+        "Analyzes data using the Cost Per Qualified Dialogue (CPQD) rule",
+        "Applies the Ahmedabad specific Trust/Legacy DNA",
+        "Correctly identifies the funnel breakage point at BOFU",
+        "Delegates correctly to ad-creative and paid-ads"
+      ]
+    }
+  ]
+}
